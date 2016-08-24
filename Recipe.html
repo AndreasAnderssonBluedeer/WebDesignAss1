@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pavlicious-Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+
+<div id="wrapper_recipe">
+<div class="header">
+    <table>
+        <tr>
+            <td ><a href="Home.html"><img id="logo" src="images/Logo.png"></a></td>
+
+            <td id="menu">
+                <a class="menu_tab" href="Home.html">Home</a>
+                <a class="menu_tab" id="current_page" href="Recipe.html">Recipe</a>
+                <a class="menu_tab" href="History.html">History</a>
+                <a class="menu_tab" href="References.html">References</a></td>
+        </tr>
+    </table>
+</div>
+
+
+    <div class="content_recipe">
+
+
+
+        <table id="recipe_table">
+            <tr>
+                <td id="recipe_info">
+                    <img id="recipe_img" src="images/Recipe.jpg">
+
+                    <ul>
+                        <h3>Ingredients:</h3>
+                        <li>3 egg whites</li>
+                        <li>3 tablespoons water</li>
+                        <li>250g (9 oz.) caster sugar</li>
+                        <li>pinch of salt</li>
+                        <li>5 ml or 1 tsp vinegar</li>
+                        <li>5 ml or 1 tsp. vanilla extract</li>
+                        <li>1 tsp. cornstarch (optional)</li>
+
+                    </ul>
+                </td>
+
+                <td id="recipe_desc">
+                    <table>
+                        <tr>
+                            <td><strong>Rating 3.5/5</strong></td>
+                            <td><strong>Time~60min</strong></td>
+                            <td><strong>Serves 8-10</strong></td>
+                        </tr>
+
+                    </table>
+                    <hr>
+                    <h3>Recipe:</h3>
+
+                    <ol >
+                        <li>Beat the <strong>egg whites</strong> and <strong>salt</strong> to a very stiff consistency.</li>
+                        <br class="space">
+                        <li> Add <strong>water</strong> and beat again before folding in <strong>caster sugar</strong>
+                            , <strong>vanilla</strong> and
+                            <strong>vinegar</strong>.</li>
+                        <br class="space">
+                        <li>Beat until the mixture holds its shape and stands in sharp
+                            peaks.</li>
+                        <br class="space">
+                        <li>Pour the mixture onto a baking sheet lined with parchment
+                            paper.
+                        </li>
+                        <br class="space">
+                        <li>Slow-bake the mixture at <strong>150°C (300°F)</strong> to dry all the moisture
+                            and create the meringue, approximately <strong>45 minutes</strong>. This leaves the
+                            outside of the pavlova a crisp crunchy shell, while the interior
+                            remains soft and moist.</li>
+                    </ol>
+                    <hr>
+                    <h3>Did you know?</h3>
+
+
+
+                    <p>A top tip (but not traditional) is to turn the
+                        pavlova upside down before decorating with cream and fruit because the
+                        bottom is less crispy than the top after cooking and unless you serve
+                        it immediately after decorating the "top" absorbs moisture from the
+                        cream.<br>
+                        <br>
+                        Another tip is to leave the pavlova in the oven after turning
+                        off the heat - this helps to prevent the middle of the pavlova from
+                        collapsing (although if it does collapse, generous application of
+                        cream can hide any mistakes!)</p>
+                </td>
+            </tr>
+        </table>
+
+        <table id="comment_section">
+            <tr>
+                <td colspan="4" >
+                    <hr>
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan="1" id="recipe_comments">
+
+                    <p><strong>Lanarn: 25 Feb 2013 @ 17:16, Rating 4/5</strong><br>"This was soooo tasty. I was
+                        afraid that it wasn't going to work, but when it came out of the oven
+                        it looked perfect! Can't wait to try it again."
+                    </p>
+                    <hr>
+                    <p><strong>ozmax25: 26 Jan 2013 @ 14:25, Rating 5/5</strong><br>"There's nothing like a pav
+                        to help you celebrate Australia day :P."
+                    </p>
+                    <hr>
+                    <p><strong>Pavzilla: 01 Dec 2012 @ 21:45, Rating 2/5</strong><br>"Argh, so
+                        frustrating. First it didn't rise, then the edges got burnt. Maybe I
+                        should stick to packet cakes..."
+                    </p>
+                    <hr>
+                </td>
+                <td colspan="3">
+
+                    <form >
+                        <label><strong>First name:</strong>
+                            <input type="text" class="name" name="firstname"></label><br>
+                        <label><strong>Last name:</strong>
+                            <input type="text" class="name" name="lastname"></label><br>
+                        <label><strong>Rating:</strong></label>
+
+                            <input type="radio" id="rate1" name="gender" value="1">
+                            <label for="rate1">1</label>
+
+                            <input type="radio" id="rate2" name="gender" value="2">
+                            <label for="rate2">2</label>
+
+                            <input type="radio" id="rate3" name="gender" value="3" checked="checked">
+                            <label for="rate3">3</label>
+
+                            <input type="radio" id="rate4" name="gender" value="4">
+                            <label for="rate4">4</label>
+
+                            <input type="radio"  id="rate5"name="gender" value="5">
+                            <label for="rate5">5</label><br>
+                        <label><strong>Comment:</strong><br>
+                            <textarea  name="comment" rows="10"></textarea>
+                        </label><br>
+                        <input class="submitbtn"  type="submit" value="Add Comment">
+                    </form>
+
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+    <div id="footer">
+        Created by Andreas Andersson, 2016
+    </div>
+</div>
+</body>
+</html>
